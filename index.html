@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,600,700&amp;lang=en"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Impactometer</title>
+    <link href="static/css/2.8aa5a7f8.chunk.css" rel="stylesheet" />
+    <link href="static/css/main.918fb996.chunk.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="header">
+        <img class="logo" src="images/sse logo.png" alt="sse icon" />
+      </div>
+      <div class="body-background">
+        <div class="container rectangle">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="question">
+                <h3 class="group-text">What you use</h3>
+                <h4 class="question-text">
+                  How many people live in your household?
+                </h4>
+                <div class="option-group">
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      id="1-1"
+                      class="form-check-input option"
+                      value="1"
+                    /><label class="form-check-label" for="1-1">1</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      id="1-2"
+                      class="form-check-input option"
+                      value="2"
+                    /><label class="form-check-label" for="1-2">2</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      id="1-3"
+                      class="form-check-input option"
+                      value="3"
+                    /><label class="form-check-label" for="1-3">3</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      id="1-4"
+                      class="form-check-input option"
+                      value="4"
+                    /><label class="form-check-label" for="1-4">4</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      type="radio"
+                      id="1-5"
+                      class="form-check-input option"
+                      value="5"
+                    /><label class="form-check-label" for="1-5">5+</label>
+                  </div>
+                </div>
+                <div class="previous-question" type="button">
+                  Previous question
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="image-section">
+                <img class="image" src="images/what you use.svg" alt="" />
+                <div class="tip-heading">
+                  Did you know the average Co2 per person is 8340kg?
+                </div>
+                <div class="tip-text">
+                  We're not saying give a family member away, it's just an
+                  interesting stat
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-footer">
+        <div class="container-fluid">
+          <div class="row pt-3">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4 terms">
+              <a class="terms-text" href="#">Terms of use</a
+              ><a class="terms-text" href="#">Privacy Policy</a
+              ><a class="terms-text" href="#">Who we are</a>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-4 socialLinks">
+              <a
+                href="#"
+                title="twitter icon"
+                target="_blank"
+                class="twitter-icon"
+              ></a
+              ><a
+                href="#"
+                title="facebook icon"
+                target="_blank"
+                class="facebook-icon"
+              ></a
+              ><a
+                href="#"
+                title="youtube icon"
+                target="_blank"
+                class="youtube-icon"
+              ></a>
+            </div>
+            <div class="col-sm-1"></div>
+          </div>
+          <div class="row">
+            <div class="col-12 copyright-wrapper">
+              <span class="copyright">© 2020 SSE. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script>
+      !(function (e) {
+        function t(t) {
+          for (
+            var n, l, i = t[0], f = t[1], a = t[2], p = 0, s = [];
+            p < i.length;
+            p++
+          )
+            (l = i[p]),
+              Object.prototype.hasOwnProperty.call(o, l) &&
+                o[l] &&
+                s.push(o[l][0]),
+              (o[l] = 0);
+          for (n in f)
+            Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
+          for (c && c(t); s.length; ) s.shift()();
+          return u.push.apply(u, a || []), r();
+        }
+        function r() {
+          for (var e, t = 0; t < u.length; t++) {
+            for (var r = u[t], n = !0, i = 1; i < r.length; i++) {
+              var f = r[i];
+              0 !== o[f] && (n = !1);
+            }
+            n && (u.splice(t--, 1), (e = l((l.s = r[0]))));
+          }
+          return e;
+        }
+        var n = {},
+          o = { 1: 0 },
+          u = [];
+        function l(t) {
+          if (n[t]) return n[t].exports;
+          var r = (n[t] = { i: t, l: !1, exports: {} });
+          return e[t].call(r.exports, r, r.exports, l), (r.l = !0), r.exports;
+        }
+        (l.m = e),
+          (l.c = n),
+          (l.d = function (e, t, r) {
+            l.o(e, t) ||
+              Object.defineProperty(e, t, { enumerable: !0, get: r });
+          }),
+          (l.r = function (e) {
+            "undefined" != typeof Symbol &&
+              Symbol.toStringTag &&
+              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+              Object.defineProperty(e, "__esModule", { value: !0 });
+          }),
+          (l.t = function (e, t) {
+            if ((1 & t && (e = l(e)), 8 & t)) return e;
+            if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+            var r = Object.create(null);
+            if (
+              (l.r(r),
+              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
+              2 & t && "string" != typeof e)
+            )
+              for (var n in e)
+                l.d(
+                  r,
+                  n,
+                  function (t) {
+                    return e[t];
+                  }.bind(null, n)
+                );
+            return r;
+          }),
+          (l.n = function (e) {
+            var t =
+              e && e.__esModule
+                ? function () {
+                    return e.default;
+                  }
+                : function () {
+                    return e;
+                  };
+            return l.d(t, "a", t), t;
+          }),
+          (l.o = function (e, t) {
+            return Object.prototype.hasOwnProperty.call(e, t);
+          }),
+          (l.p = "/");
+        var i = (this.webpackJsonpclient = this.webpackJsonpclient || []),
+          f = i.push.bind(i);
+        (i.push = t), (i = i.slice());
+        for (var a = 0; a < i.length; a++) t(i[a]);
+        var c = f;
+        r();
+      })([]);
+    </script>
+    <script src="static/js/2.1dc9a60d.chunk.js"></script>
+    <script src="static/js/main.0e3650dc.chunk.js"></script>
+  </body>
+</html>
